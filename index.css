@@ -1,0 +1,88 @@
+body{
+    background-color:blue;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif
+}
+/*Classes*/
+.header1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-size: 25px
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left:500px ;
+    padding-right:500px ;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left:400px ;
+    padding-right:400px ;
+    padding-top: 200px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left:50px ;
+    padding-right:100px ;
+}
+.button1{
+border: 1px;
+padding: 20px 20px;
+border-radius: 50%;
+color:blue
+}
+
+/*ID*/
+#Title{
+    font-size: 60px;
+    padding-bottom: 50px;
+   font-weight: bold; 
+}
+#sub{
+
+    padding: 20px 20px;
+    border-radius: 50%;
+    color:white;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 12px
+
+    
+}
+#wordText{
+    font-size: 30px;
+    border: 1px;
+}
+#rotate{
+    transform: rotate(-90deg);
+    
+}
+#SocialMedia{
+    display: flex;
+    flex-direction: column;
+
+}
+#SocialMedia i {
+    border: 1px solid white;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
